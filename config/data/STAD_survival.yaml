@@ -1,0 +1,10 @@
+Data:
+    dataset_name: TCGADataset
+    csv_filepath: ./STAD_survival.csv
+    feature_dir: /homeb/wangshu/datasets/miccai26_dataset/TCGA-STAD/feats-m20-s448-conch_v1
+    train_dataloader:
+        batch_size: 1
+        num_workers: 8
+    test_dataloader:
+        batch_size: 1
+        num_workers: 8
